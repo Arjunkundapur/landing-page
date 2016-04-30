@@ -1,0 +1,19 @@
+.main-header{
+	height: 90px;
+	line-height: 90px;
+	position: relative;
+	text-align: left;
+	z-index: 1;
+}
+.main-header__logo,
+.main-header__nav{
+	display: inline-block;
+	text-align: center;
+}
+.main-header__nav{
+	float: right;
+	a{
+		padding: 0 30px;
+		float: left;
+	}
+}

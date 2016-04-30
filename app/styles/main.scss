@@ -18,6 +18,12 @@
 	'_common/layout/base';
 
 @import
+	'_common/components/fold';
+
+@import
 	'_common/layout/loader',
 	'_common/layout/header',
 	'_common/layout/footer';
+
+@import
+	'views/home';
