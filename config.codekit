@@ -56,6 +56,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/app\/styles\/_common\/components\/_header.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/styles\/_common\/components\/_header.scss",
+		"outputAbbreviatedPath": "\/public\/css\/_header.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/app\/styles\/_common\/layout\/_base.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,

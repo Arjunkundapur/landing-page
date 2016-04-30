@@ -7,10 +7,8 @@
 
 @import
 	'_common/vendor/reset',
-	'_common/typography';
-
-@import
 	'_common/utils/variables',
+	'_common/typography',
 	'_common/utils/mixins',
 	'_common/utils/bootstrap';
 
@@ -18,7 +16,8 @@
 	'_common/layout/base';
 
 @import
-	'_common/components/fold';
+	'_common/components/fold',
+	'_common/components/header';
 
 @import
 	'_common/layout/loader',
