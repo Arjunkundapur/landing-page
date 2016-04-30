@@ -1,0 +1,12 @@
+header.main-header
+    .container
+        h1
+            a.main-header__logo(href='#', title='MoGo')
+                img(src='images/mogo-logo.png', alt='MoGo')
+
+        nav.main-header__nav
+            +mainHeaderBtNav( 'ABOUT', '#' )
+            +mainHeaderBtNav( 'SERVICE', '#' )
+            +mainHeaderBtNav( 'WORK', '#' )
+            +mainHeaderBtNav( 'BLOG', '#' )
+            +mainHeaderBtNav( 'CONTACT', '#' )

@@ -1,94 +1,23 @@
-// Vars
-$COLOR_PLAYER: #ECEDF2;
-$COLOR_CANVAS: #091D42;
-$COLOR_BG: #FDFDFD;
-$COLOR_ENEMY_1: #9AB4CB;
-$COLOR_ENEMY_2: #396A92;
+// Description: Data structure.
+// Version: 1.0.0
+ 
 
-// Mixins
-@mixin center(){
-	position: absolute;
-	margin: auto;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
+@import
+	'bourbon';
 
-// Helpers
-.center{
-	@include center();
-}
+@import
+	'_common/vendor/reset',
+	'_common/typography';
 
-body{
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	margin: 0;
-	background-color: $COLOR_BG;
-}
+@import
+	'_common/utils/variables',
+	'_common/utils/mixins',
+	'_common/utils/bootstrap';
 
-.canvas{
-	width: 768px;
-	height: 500px;
-	background-color: $COLOR_CANVAS;
-	overflow: hidden;
-}
+@import
+	'_common/layout/base';
 
-.bt{
-	width: 200px;
-	height: 40px;
-	bottom: -600px;
-	text-align: center;
-	line-height: 40px;
-	color: $COLOR_BG;
-	background-color: $COLOR_CANVAS;
-	cursor: pointer;
-}
-.bt--play{
-	left: -260px;
-}
-.bt--reload{
-	right: -260px;
-}
-
-.player,
-.bullet,
-.obstacle,
-.enemy{
-	position: absolute;
-	bottom: 0;
-}
-
-.player{
-	background-color: $COLOR_PLAYER;
-	border-radius: 50%;
-	&:after{
-		content: "";
-		display: block;
-		@include center();
-		width: 1px;
-		height: 20px;
-		background-color: $COLOR_CANVAS;
-		animation: rotation 1s infinite linear;
-		
-	}
-}
-
-.bullet{
-	background-color: $COLOR_PLAYER;
-	right: calc(100% - 80px); //porque no left? para comparar con 'right' de obstaculos o enemigos
-}
-
-.obstacle{
-	background-color: $COLOR_ENEMY_1;
-}
-
-.enemy{
-	background-color: $COLOR_ENEMY_2;
-}
-
-@keyframes rotation {
-	from {transform: rotate(0deg);}
-	to {transform: rotate(359deg);}
-}
+@import
+	'_common/layout/loader',
+	'_common/layout/header',
+	'_common/layout/footer';

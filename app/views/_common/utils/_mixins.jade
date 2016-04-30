@@ -1,0 +1,10 @@
+mixin mainHeaderBtNav(title, href)
+    a(href=href, title='View #{title}')=title
+
+mixin mainHeaderBtIcon(title, href, logo)
+    a(href=href, title='View #{title}')=logo
+
+mixin headerSection(desc, title, modifier)
+    header.header(class='header--#{modifier}')
+        h3.header__desc=desc
+        h2.header__tit=title
