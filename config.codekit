@@ -264,6 +264,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/app\/views\/home\/_block-1.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/home\/_block-1.jade",
+		"outputAbbreviatedPath": "\/public\/_block-1.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/app\/views\/home\/_header-home.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
