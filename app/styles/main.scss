@@ -5,7 +5,10 @@
 	'bourbon';
 
 @import
-	'_common/vendor/reset',
+	'_common/vendor/font-awesome/font-awesome',
+	'_common/vendor/reset';
+	
+@import
 	'_common/utils/variables',
 	'_common/typography';
 

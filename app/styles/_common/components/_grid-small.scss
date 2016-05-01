@@ -33,14 +33,21 @@
 		.grid__small__gradient{
 			opacity: .4;
 		}
-		.grid__small__title{
+		.grid__small__hover{
 			opacity: 1
 		}
 	}
 }
-.grid__small__title{
+.grid__small__hover{
 	z-index: 1;
 	opacity: 0;
+}
+.grid__small__icon{
+	padding-bottom: 10px;
+	font-size: em(24)
+}
+.grid__small__title{
+	font-size: em(18)
 }
 .grid__small__gradient{
 	top: 0;

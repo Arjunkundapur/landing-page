@@ -19,8 +19,6 @@
 	float: right;
 	a{
 		color: $COLOR-WHITE;
-		margin: 0 27px;
-		padding: 0 3px;
 		float: left;
 		position: relative;
 		&:after{
@@ -37,15 +35,26 @@
 		}
 	}
 }
-
+.main-header__a{
+	margin: 0 27px;
+	padding: 0 3px;
+	&:last-child{
+		margin-right: 0;
+		padding-right: 0;
+	}
+}
+.main-header__b{
+	padding: 0 20px;
+	&:last-child{
+		padding-right: 0;
+	}
+}
 @media (min-width: 768px){
-	.main-header__nav{
-		a{
-			&:hover{
-				color: $COLOR-WILD-RICE;
-				&:after{
-					background-color: $COLOR-WILD-RICE;
-				}
+	.main-header__a{
+		&:hover{
+			color: $COLOR-WILD-RICE;
+			&:after{
+				background-color: $COLOR-WILD-RICE;
 			}
 		}
 	}

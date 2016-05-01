@@ -59,3 +59,16 @@
 .main-footer__copyright a{
 	color: $COLOR-NEW-YORK-PINK;
 }
+
+.main-footer__social{
+	height: 60px;
+	a,
+	li{
+		display: inline-block;
+		line-height: 60px;
+	}
+	a{
+		padding: 0 19px;
+		color: $COLOR-AQUA-ISLAND;
+	}
+}

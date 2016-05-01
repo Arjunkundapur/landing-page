@@ -18,8 +18,7 @@
 	color: $COLOR-WHITE;
 	&:hover{
 
-		.grid__big__title,
-		.grid__big__subtitle{
+		.grid__big__hover{
 			opacity: 1;
 		}
 		.grid__big__gradient{
@@ -30,9 +29,11 @@
 .grid__big__row--double{
 	height: 100%;
 }
-
-.grid__big__title,
-.grid__big__subtitle,
+.grid__big__icon{
+	font-size: em(30);
+	padding-bottom: 18px;
+}
+.grid__big__hover,
 .grid__big__gradient{
 	opacity: 0;
 }

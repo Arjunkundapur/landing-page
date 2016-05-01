@@ -1,5 +1,5 @@
 mixin mainHeaderBtNav(title, href)
-    a(href=href, title='View #{title}').thin=title
+    a.main-header__a(href=href, title='View #{title}').thin=title
 
 mixin mainHeaderBtIcon(title, href, logo)
     a(href=href, title='View #{title}')=logo
@@ -9,11 +9,12 @@ mixin headerSection(desc, title, modifier)
         h3.header__desc.light--italic=desc
         h2.header__tit.bold!=title
 
-mixin gridSmallLink(title, srcImg, href)
+mixin gridSmallLink(title, srcImg, href, icon)
     a.grid__small__link.bold(href=href, title='View #{title}')
         .container-fluid.grid__small__thumb.flex-center(style='background-image:url(#{srcImg})')
             span.grid__small__gradient.full
-            span.grid__small__title=title
+            span.grid__small__hover.grid__small__icon: i.fa(aria-hidden="true", class='fa-#{icon}')
+            span.grid__small__hover.grid__small__title=title
 
 mixin statsCol(number, title)
     .stats__col.flex-center
@@ -24,9 +25,9 @@ mixin logosCol(title, srcImg)
     .logo__col
         img.center(src=srcImg, alt=title)
 
-mixin gridBig(title, subtitle, srcImg, href, modifier)
+mixin gridBig(title, subtitle, srcImg, href, icon, modifier)
     a.grid__big__row.flex-center(href=href, title='View #{title}', style="background-image:url(#{srcImg});", class='grid__big__row--#{modifier}')
-            .grid__big__icon
-            .grid__big__title.thin=title
-            .grid__big__subtitle.light--italic=subtitle
+            .grid__big__hover.grid__big__icon: i.fa(aria-hidden="true", class='fa-#{icon}')
+            .grid__big__hover.grid__big__title.thin=title
+            .grid__big__hover.grid__big__subtitle.light--italic=subtitle
             span.grid__big__gradient.full
