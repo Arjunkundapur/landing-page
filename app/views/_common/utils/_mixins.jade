@@ -19,3 +19,7 @@ mixin statsCol(number, title)
     .stats__col.flex-center
         span.stats__number.bold=number
         span.stats__title.flex-center=title
+
+mixin logosCol(title, srcImg)
+    .logo__col
+        img.center(src=srcImg, alt=title)
