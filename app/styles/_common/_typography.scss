@@ -13,7 +13,13 @@ a{
 }
 p{
 	color: $COLOR-GRAY;
+	font-size: 15px;
+	line-height: 1.5em;
 }
+
 .light{
 	font-weight: 100;
+}
+.bold{
+	font-weight: 600;
 }

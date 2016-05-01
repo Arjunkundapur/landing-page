@@ -1,8 +1,10 @@
-
-.fold{
+.fold,
+.fold__header{
 	position: absolute;
 	width: 100%;
 	height: 100%;
+}
+.fold__header{
 	top: 0;
 	@include linear-gradient($COLOR-NEW-YORK-PINK, $COLOR-SHARA-SAND);
 }
@@ -10,5 +12,12 @@
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	opacity: .1
+	opacity: .1;
+	left: 0;
+	top: 0;
+}
+.fold-content{
+	position: absolute;
+	width: 100%;
+    top: 100%;
 }

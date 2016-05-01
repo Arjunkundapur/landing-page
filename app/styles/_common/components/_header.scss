@@ -1,9 +1,43 @@
 .header{
-
+	position: relative;
+	margin-bottom: 45px;
+	&:after{
+		content: '';
+		position: absolute;
+		width: 60px;
+		height: 3px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		background-color: $COLOR-NEW-YORK-PINK;
+	}
 }
+
 .header__desc{
-
+	font-style: italic;
+	font-size: em(24);
+	padding-bottom: 25px;
 }
+
 .header__tit{
-	
+	font-weight: bolder;
+	font-size: em(30);
+	padding-bottom: 45px;
+}
+
+.header--big{
+	&:after{
+		background-color: $COLOR-WHITE;
+	}
+	.header__desc,
+	.header__tit{
+		color: $COLOR-WHITE;
+	}
+	.header__desc{
+		font-size: em(72);
+	}
+	.header__tit{
+		font-size: em(150);
+	}
 }

@@ -6,5 +6,5 @@ mixin mainHeaderBtIcon(title, href, logo)
 
 mixin headerSection(desc, title, modifier)
     header.header(class='header--#{modifier}')
-        h3.header__desc=desc
-        h2.header__tit=title
+        h3.header__desc.light=desc
+        h2.header__tit!=title
