@@ -14,6 +14,7 @@ a{
 p{
 	color: $COLOR-GRAY;
 	font-size: 15px;
+	font-weight: 500;
 	line-height: 1.5em;
 }
 
@@ -22,4 +23,7 @@ p{
 }
 .bold{
 	font-weight: 600;
+}
+.text-wrapper{
+	max-width: 1000px;
 }

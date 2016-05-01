@@ -1,0 +1,19 @@
+.stats{
+	background-color: $COLOR-AQUA-ISLAND;
+	border-bottom: 3px solid $COLOR-WHITE;
+}
+.stats__col{
+	float: left;
+	width: 20%;
+	height: 270px;
+	color: $COLOR-WHITE;
+	box-shadow: inset 1px 1px 1px $COLOR-JAGGED-ICE;
+}
+.stats__number{
+	font-size: 72px;
+	padding-bottom: 25px;
+
+}
+.stats__title{
+
+}

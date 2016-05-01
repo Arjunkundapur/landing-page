@@ -8,3 +8,14 @@ mixin headerSection(desc, title, modifier)
     header.header(class='header--#{modifier}')
         h3.header__desc.light=desc
         h2.header__tit!=title
+
+mixin gridSmallLink(title, srcImg, href)
+    a.grid__small__link.bold(href=href, title='View #{title}')
+        .container-fluid.grid__small__thumb.flex-center(style='background-image:url(#{srcImg})')
+            span.grid__small__gradient.full
+            span.grid__small__title=title
+
+mixin statsCol(number, title)
+    .stats__col.flex-center
+        span.stats__number.bold=number
+        span.stats__title.flex-center=title
