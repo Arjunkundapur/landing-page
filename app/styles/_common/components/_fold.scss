@@ -5,6 +5,7 @@
 	height: 100%;
 }
 .fold__header{
+	overflow: hidden;;
 	top: 0;
 	@include linear-gradient($COLOR-NEW-YORK-PINK, $COLOR-SHARA-SAND);
 }
@@ -20,5 +21,4 @@
 	position: absolute;
 	width: 100%;
     top: 100%;
-    background-color: $COLOR-CONCRETE;
 }

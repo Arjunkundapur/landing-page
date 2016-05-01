@@ -4,16 +4,17 @@
 }
 .stats__col{
 	float: left;
-	width: 20%;
+	width: calc(20% - 1px);
 	height: 270px;
 	color: $COLOR-WHITE;
-	box-shadow: inset 1px 1px 1px $COLOR-JAGGED-ICE;
+	border-left: 1px solid $COLOR-JAGGED-ICE;
+	&:last-child{
+		width: calc(20% - 2px);
+		border-right: 1px solid $COLOR-JAGGED-ICE;
+	}
 }
 .stats__number{
 	font-size: 72px;
 	padding-bottom: 25px;
-
-}
-.stats__title{
 
 }

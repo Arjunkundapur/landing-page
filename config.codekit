@@ -366,6 +366,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/app\/views\/home\/_block-2.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/home\/_block-2.jade",
+		"outputAbbreviatedPath": "\/public\/_block-2.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/app\/views\/home\/_header-home.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -404,6 +415,39 @@
 		"initialSize": 102041,
 		"inputAbbreviatedPath": "\/public\/images\/eagle.png",
 		"outputAbbreviatedPath": "\/public\/images\/eagle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/ipad.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/public\/images\/ipad.png",
+		"outputAbbreviatedPath": "\/public\/images\/ipad.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/iphone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105485,
+		"inputAbbreviatedPath": "\/public\/images\/iphone.png",
+		"outputAbbreviatedPath": "\/public\/images\/iphone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/landscape.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 323719,
+		"inputAbbreviatedPath": "\/public\/images\/landscape.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/landscape.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

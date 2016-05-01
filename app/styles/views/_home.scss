@@ -1,3 +1,29 @@
 .fold__bg--home{
 	background: url(../images/eagle.png) no-repeat scroll center center transparent;
 }
+.seccion__devices{
+	padding-top: 95px;
+	height: 755px;
+	background: url(../images/landscape.jpg) no-repeat scroll center center $COLOR-CONCRETE;
+	background-size: cover;
+}
+.device__border{
+	width: 100%;
+	height: 130px;
+    position: absolute;
+    background-color: $COLOR-WHITE;
+}
+.device__iphone,
+.device__ipad{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	bottom: -132px;
+
+}
+.device__ipad{
+}
+.device__iphone{
+	right: -475px;
+}
