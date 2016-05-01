@@ -3,13 +3,13 @@
 	border-bottom: 3px solid $COLOR-WHITE;
 }
 .stats__col{
+	box-sizing: border-box;
 	float: left;
-	width: calc(20% - 1px);
+	width: 20%;
 	height: 270px;
 	color: $COLOR-WHITE;
 	border-left: 1px solid $COLOR-JAGGED-ICE;
 	&:last-child{
-		width: calc(20% - 2px);
 		border-right: 1px solid $COLOR-JAGGED-ICE;
 	}
 }
