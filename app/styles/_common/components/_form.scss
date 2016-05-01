@@ -1,3 +1,21 @@
+::-webkit-input-placeholder {
+   @include fontLightItalic();
+}
+
+:-moz-placeholder {
+   @include fontLightItalic();  
+}
+
+::-moz-placeholder {
+   @include fontLightItalic();  
+}
+
+:-ms-input-placeholder {  
+   @include fontLightItalic();  
+}
+.form{
+	width: 380px;
+}
 input{
 	margin: 0;
 	height: 38px;
@@ -16,24 +34,24 @@ input{
 	-moz-appearance: none;
 	border-radius: 0;
 }
+input[type='email']{
+	font-size: em(15);
+	width: 203px;
+	border-right: 0;
+}
 input[type='submit']{
 	border-color: $COLOR-AQUA-ISLAND;
 	background-color: $COLOR-AQUA-ISLAND;
 	color: $COLOR-WHITE;
 	cursor: pointer;
+    width: 148px;
+    padding: 0;
 }
-::-webkit-input-placeholder {
-   @include fontLightItalic();
-}
-
-:-moz-placeholder {
-   @include fontLightItalic();  
-}
-
-::-moz-placeholder {
-   @include fontLightItalic();  
-}
-
-:-ms-input-placeholder {  
-   @include fontLightItalic();  
+.main-footer__social{
+	height: 60px;
+	li{
+		display: inline-block;
+		line-height: 60px;
+		padding: 0 19px;
+	}
 }

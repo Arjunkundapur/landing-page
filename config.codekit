@@ -38,7 +38,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/styles\/_common\/components\/_buttons.scss": {
 		"createSourceMap": 1,
@@ -54,7 +54,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/styles\/_common\/components\/_fold.scss": {
 		"createSourceMap": 1,
@@ -70,7 +70,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/styles\/_common\/components\/_form.scss": {
 		"createSourceMap": 1,
@@ -86,7 +86,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/styles\/_common\/components\/_grid-big.scss": {
 		"createSourceMap": 1,
@@ -102,7 +102,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/styles\/_common\/components\/_grid-small.scss": {
 		"createSourceMap": 1,
@@ -118,7 +118,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/styles\/_common\/components\/_header.scss": {
 		"createSourceMap": 1,
@@ -134,7 +134,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/styles\/_common\/components\/_logos.scss": {
 		"createSourceMap": 1,
@@ -150,7 +150,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/styles\/_common\/components\/_stats.scss": {
 		"createSourceMap": 1,
@@ -166,7 +166,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/styles\/_common\/layout\/_base.scss": {
 		"createSourceMap": 1,
@@ -182,7 +182,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/styles\/_common\/layout\/_footer.scss": {
 		"createSourceMap": 1,
@@ -198,7 +198,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/styles\/_common\/layout\/_header.scss": {
 		"createSourceMap": 1,
@@ -214,7 +214,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/styles\/_common\/layout\/_loader.scss": {
 		"createSourceMap": 1,
@@ -230,39 +230,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/app\/styles\/_common\/utils\/_bootstrap.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/styles\/_common\/utils\/_bootstrap.scss",
-		"outputAbbreviatedPath": "\/public\/css\/_bootstrap.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/app\/styles\/_common\/utils\/_mixins.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/styles\/_common\/utils\/_mixins.scss",
-		"outputAbbreviatedPath": "\/public\/css\/_mixins.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/styles\/_common\/utils\/_variables.scss": {
 		"createSourceMap": 1,
@@ -278,7 +246,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/styles\/_common\/vendor\/_reset.scss": {
 		"createSourceMap": 1,
@@ -294,7 +262,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/styles\/main.scss": {
 		"createSourceMap": 1,
@@ -310,7 +278,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/styles\/views\/_home.scss": {
 		"createSourceMap": 1,
@@ -326,7 +294,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/app\/typescripts\/main.ts": {
 		"createDeclarationFile": 0,
@@ -1169,7 +1137,7 @@
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 3,
-	"sassUseLibsass": 0,
+	"sassUseLibsass": 1,
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,
 	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",

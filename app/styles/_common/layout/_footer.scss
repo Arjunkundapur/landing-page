@@ -21,6 +21,7 @@
 }
 	.main-footer__col--disclaimer{
 		padding-right: 35px;
+		padding-top: 10px;
 	}
 	.main-footer__col--contact{
 		padding-left: 18px;
@@ -28,7 +29,20 @@
 		min-height: 102px;
 
 	}
+@media (max-width: 1030px){
 
+	.main-footer__col{
+	    width: 50%;
+	    padding-left: 0;
+	    padding-right: 0;
+	    margin-left: 0;
+	}
+}
+@media (max-width: 793px){
+	.main-footer__col{
+		width: 100%;
+	}
+}
 .main-footer__col--contact,
 .main-footer__copyright{
 	border-top: 1px solid $COLOR-MERCURY;
@@ -40,4 +54,8 @@
 	height: 70px;
 	line-height: 70px;
 
+}
+
+.main-footer__copyright a{
+	color: $COLOR-NEW-YORK-PINK;
 }
