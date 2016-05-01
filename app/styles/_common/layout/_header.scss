@@ -7,6 +7,9 @@
 	z-index: 1;
 	overflow: hidden;
 }
+.main-header__logo{
+	font-size: em(30);
+}
 .main-header__logo,
 .main-header__nav{
 	display: inline-block;
