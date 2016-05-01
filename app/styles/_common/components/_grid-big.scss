@@ -1,0 +1,56 @@
+.grid__big{
+	position: relative;
+	width: 100%;
+	height: 780px;
+	margin-top: 95px;
+}
+.grid__big__col{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.grid__big__row{
+	width: 100%;
+	height: 50%;
+	background: no-repeat scroll center center transparent;
+	background-size: cover;
+	position: relative;
+	color: $COLOR-WHITE;
+	&:hover{
+
+		.grid__big__title,
+		.grid__big__subtitle{
+			opacity: 1;
+		}
+		.grid__big__gradient{
+			opacity: .4;
+		}
+	}
+}
+.grid__big__row--double{
+	height: 100%;
+}
+
+.grid__big__title,
+.grid__big__subtitle,
+.grid__big__gradient{
+	opacity: 0;
+}
+
+.grid__big__gradient{
+	top: 0;
+	@include linear-gradient($COLOR-NEW-YORK-PINK, $COLOR-SHARA-SAND);
+}
+
+.grid__big__title{
+	padding-bottom: 18px;
+}
+.grid__big__subtitle{
+	font-size: em(15);
+	font-style: italic;
+}
+@media (max-width: 1024px) {
+	.grid__big{
+		height: 600px;
+	}
+}

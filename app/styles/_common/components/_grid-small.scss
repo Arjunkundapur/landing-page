@@ -44,6 +44,9 @@
 }
 .grid__small__gradient{
 	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 	max-width: 380px;
 	opacity: 0;
 	@include linear-gradient($COLOR-NEW-YORK-PINK, $COLOR-SHARA-SAND);

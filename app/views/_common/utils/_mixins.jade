@@ -23,3 +23,10 @@ mixin statsCol(number, title)
 mixin logosCol(title, srcImg)
     .logo__col
         img.center(src=srcImg, alt=title)
+
+mixin gridBig(title, subtitle, srcImg, href, modifier)
+    a.grid__big__row.flex-center(href=href, title='View #{title}', style="background-image:url(#{srcImg});", class='grid__big__row--#{modifier}')
+            .grid__big__icon
+            .grid__big__title=title
+            .grid__big__subtitle=subtitle
+            span.grid__big__gradient.full

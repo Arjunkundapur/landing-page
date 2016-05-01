@@ -72,6 +72,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/app\/styles\/_common\/components\/_grid-big.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/styles\/_common\/components\/_grid-big.scss",
+		"outputAbbreviatedPath": "\/public\/css\/_grid-big.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/app\/styles\/_common\/components\/_grid-small.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -97,6 +113,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/styles\/_common\/components\/_header.scss",
 		"outputAbbreviatedPath": "\/public\/css\/_header.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/styles\/_common\/components\/_logos.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/styles\/_common\/components\/_logos.scss",
+		"outputAbbreviatedPath": "\/public\/css\/_logos.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -377,6 +409,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/app\/views\/home\/_block-3.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/home\/_block-3.jade",
+		"outputAbbreviatedPath": "\/public\/_block-3.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/app\/views\/home\/_header-home.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -384,6 +427,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/views\/home\/_header-home.jade",
 		"outputAbbreviatedPath": "\/public\/_header-home.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/app\/views\/home\/_logos.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/home\/_logos.jade",
+		"outputAbbreviatedPath": "\/public\/_logos.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
@@ -462,15 +516,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/public\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/public\/js\/main.js": {
 		"fileType": 64,
