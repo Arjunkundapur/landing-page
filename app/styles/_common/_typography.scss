@@ -1,6 +1,34 @@
+@mixin fontThin(){
+	font-weight: 100;
+}
+@mixin fontThinItalic(){
+	font-weight: 100;
+	font-style: italic;
+}
+
+@mixin fontLight(){
+	font-weight: 300;
+}
+
+
+@mixin fontLightItalic(){
+	font-weight: 300;
+	font-style: italic;
+}
+
+@mixin fontNormal(){
+	font-weight: 400;
+}
+
+
+@mixin fontBold(){
+	font-weight: 900;
+}
+
 body{
 	font-size: $EM-BASE;
-	font-family: $FONT-SERIF;
+	font-family: $FONT-BASE;
+	@include fontNormal();
 	text-align: center;
 	color: $COLOR-BLACK;
 	-webkit-font-smoothing: antialiased;
@@ -13,16 +41,23 @@ a{
 }
 p{
 	color: $COLOR-GRAY;
-	font-size: 15px;
-	font-weight: 500;
+	font-size: em(15);
 	line-height: 1.5em;
 }
-
+.thin{
+	@include fontThin();
+}
+.thin--italic{
+	@include fontThinItalic();
+}
 .light{
-	font-weight: 100;
+	@include fontLight();
+}
+.light--italic{
+	@include fontLightItalic();
 }
 .bold{
-	font-weight: 600;
+	@include fontBold();
 }
 .text-wrapper{
 	max-width: 1000px;

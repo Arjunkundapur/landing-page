@@ -15,15 +15,13 @@
 }
 
 .header__desc{
-	font-style: italic;
 	font-size: em(24);
-	padding-bottom: 25px;
+	padding-bottom: 19px;
 }
 
 .header__tit{
-	font-weight: bolder;
 	font-size: em(30);
-	padding-bottom: 45px;
+	padding-bottom: 43px;
 }
 
 .header--big{
@@ -36,8 +34,12 @@
 	}
 	.header__desc{
 		font-size: em(72);
+		@include fontThinItalic();
+		padding-bottom: 40px;
 	}
 	.header__tit{
 		font-size: em(150);
+		line-height: .97em;
+		padding-bottom: 55px;
 	}
 }

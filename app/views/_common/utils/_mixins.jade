@@ -1,13 +1,13 @@
 mixin mainHeaderBtNav(title, href)
-    a(href=href, title='View #{title}').light=title
+    a(href=href, title='View #{title}').thin=title
 
 mixin mainHeaderBtIcon(title, href, logo)
     a(href=href, title='View #{title}')=logo
 
 mixin headerSection(desc, title, modifier)
     header.header(class='header--#{modifier}')
-        h3.header__desc.light=desc
-        h2.header__tit!=title
+        h3.header__desc.light--italic=desc
+        h2.header__tit.bold!=title
 
 mixin gridSmallLink(title, srcImg, href)
     a.grid__small__link.bold(href=href, title='View #{title}')
@@ -27,6 +27,6 @@ mixin logosCol(title, srcImg)
 mixin gridBig(title, subtitle, srcImg, href, modifier)
     a.grid__big__row.flex-center(href=href, title='View #{title}', style="background-image:url(#{srcImg});", class='grid__big__row--#{modifier}')
             .grid__big__icon
-            .grid__big__title=title
-            .grid__big__subtitle=subtitle
+            .grid__big__title.thin=title
+            .grid__big__subtitle.light--italic=subtitle
             span.grid__big__gradient.full

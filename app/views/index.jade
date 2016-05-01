@@ -1,8 +1,9 @@
 extends _common/layout/_index
 
 block body
-    include home/_header-home
-    .fold-content
+    section.fold__header.flex-center
+        include home/_header-home
+    section.fold-content
         include home/_block-1
         include home/_block-2
         include home/_logos

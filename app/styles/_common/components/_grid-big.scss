@@ -39,6 +39,7 @@
 
 .grid__big__gradient{
 	top: 0;
+	left: 0;
 	@include linear-gradient($COLOR-NEW-YORK-PINK, $COLOR-SHARA-SAND);
 }
 
@@ -47,7 +48,6 @@
 }
 .grid__big__subtitle{
 	font-size: em(15);
-	font-style: italic;
 }
 @media (max-width: 1024px) {
 	.grid__big{
