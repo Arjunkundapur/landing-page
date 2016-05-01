@@ -2,8 +2,42 @@
 	padding-top: 35px;
 	background-color: $COLOR-ALABASTER;
 }
+
 .main-footer__title{
 	font-size: em(46);
 	color: $COLOR-SILVER;
 	padding-bottom: 20px;
+}
+
+.main-footer__wrapper{
+	max-width: 970px;
+	padding: 0 15px;
+}
+.main-footer__col{
+	width: calc(50% - 35px);
+	display: inline-block;
+	padding-bottom: 40px;
+	float: left;
+}
+	.main-footer__col--disclaimer{
+		padding-right: 35px;
+	}
+	.main-footer__col--contact{
+		padding-left: 18px;
+		margin-left: 17px;
+		min-height: 102px;
+
+	}
+
+.main-footer__col--contact,
+.main-footer__copyright{
+	border-top: 1px solid $COLOR-MERCURY;
+
+}
+
+.main-footer__copyright,
+.main-footer__copyright p{
+	height: 70px;
+	line-height: 70px;
+
 }

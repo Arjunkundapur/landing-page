@@ -1,0 +1,39 @@
+input{
+	margin: 0;
+	height: 38px;
+	display: inline-block;
+	float: left;
+	border: 1px solid $COLOR-MERCURY;
+	vertical-align:middle;
+	white-space:normal;
+	outline:0;
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+	padding: 0 13px;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border-radius: 0;
+}
+input[type='submit']{
+	border-color: $COLOR-AQUA-ISLAND;
+	background-color: $COLOR-AQUA-ISLAND;
+	color: $COLOR-WHITE;
+	cursor: pointer;
+}
+::-webkit-input-placeholder {
+   @include fontLightItalic();
+}
+
+:-moz-placeholder {
+   @include fontLightItalic();  
+}
+
+::-moz-placeholder {
+   @include fontLightItalic();  
+}
+
+:-ms-input-placeholder {  
+   @include fontLightItalic();  
+}

@@ -60,6 +60,9 @@ p{
 .bold{
 	@include fontBold();
 }
+.text-left{
+	text-align: left;
+}
 .text-wrapper{
 	max-width: 1000px;
 }
