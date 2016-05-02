@@ -9,6 +9,9 @@
 	height: 850px;
 	background: url(../images/landscape.jpg) no-repeat scroll center center $COLOR-CONCRETE;
 	background-size: cover;
+	width: calc(100% + 80px);
+    position: relative;
+    left: -40px;
 }
 .device__border{
 	width: 100%;

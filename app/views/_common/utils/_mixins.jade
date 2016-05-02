@@ -6,8 +6,8 @@ mixin mainHeaderBtIcon(title, href, logo)
 
 mixin headerSection(desc, title, modifier)
     header.header(class='header--#{modifier}')
-        h3.header__desc.light--italic=desc
-        h2.header__tit.bold!=title
+        h3.header__desc.light--italic(data-distance='[0.02, 0.02]')=desc
+        h2.header__tit.bold(data-distance='[0.04, 0.04]')!=title
 
 mixin gridSmallLink(title, srcImg, href, icon)
     a.grid__small__link.bold(href=href, title='View #{title}')
