@@ -16,23 +16,11 @@
 	background-size: cover;
 	position: relative;
 	color: $COLOR-WHITE;
-	&:hover{
-
-		.grid__big__hover{
-			opacity: 1;
-		}
-		.grid__big__gradient{
-			opacity: .4;
-		}
-	}
 }
 .grid__big__row--double{
 	height: 100%;
 }
-.grid__big__icon{
-	font-size: em(30);
-	padding-bottom: 18px;
-}
+
 .grid__big__hover,
 .grid__big__gradient{
 	opacity: 0;
@@ -41,15 +29,44 @@
 .grid__big__gradient{
 	top: 0;
 	left: 0;
+	@include transition(opacity .15s $ease-out-expo);
 	@include linear-gradient($COLOR-NEW-YORK-PINK, $COLOR-SHARA-SAND);
+}
+
+.grid__big__icon{
+	font-size: em(30);
+	padding-bottom: 18px;
+	@include transform(translateY(20px));
 }
 
 .grid__big__title{
 	padding-bottom: 18px;
+	@include transform(translateY(80px));
 }
 .grid__big__subtitle{
 	font-size: em(15);
+	@include transform(translateY(140px));
 }
+
+@media (min-width: 768px){
+
+	.grid__big__row{
+		&:hover{
+
+			.grid__big__gradient{
+				@include transition(opacity .25s $ease-out-expo);
+				opacity: .4;
+			}
+			.grid__big__hover{
+				@include transition(all .75s $ease-out-expo);
+				@include transform(translateY(0));
+				opacity: 1;
+			}
+		}
+	}
+}
+
+
 @media (max-width: 1024px) {
 	.grid__big{
 		height: 600px;

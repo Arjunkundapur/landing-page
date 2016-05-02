@@ -16,6 +16,19 @@
 		@include transform(translateY(23px));
 		
 	}
+	.bt span{
+		display: inline-block;
+		@include transform(scale(1));
+		@include transition(all .75s $ease-out-expo);
+	}
+}
+
+@media (min-width: 768px){
+	.fold__header {
+		.bt:hover span{
+			@include transform(scale(1.2));
+		}
+	}
 }
 .fold__bg{
 	width: 100%;
