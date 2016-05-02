@@ -520,6 +520,46 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/app\/typescripts\/components\/HandlerLoads.ts": {
+		"createDeclarationFile": 0,
+		"createSourceMap": 1,
+		"fileType": 128,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/app\/typescripts\/components\/HandlerLoads.ts",
+		"jsxMode": 0,
+		"minifyOutput": 1,
+		"moduleResolutionType": 0,
+		"moduleType": 4,
+		"noImplicitAny": 0,
+		"outputAbbreviatedPath": "\/public\/js\/HandlerLoads.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 2
+		},
+	"\/app\/typescripts\/components\/ImagesPreload.ts": {
+		"createDeclarationFile": 0,
+		"createSourceMap": 1,
+		"fileType": 128,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/typescripts\/components\/ImagesPreload.ts",
+		"jsxMode": 0,
+		"minifyOutput": 1,
+		"moduleResolutionType": 0,
+		"moduleType": 4,
+		"noImplicitAny": 0,
+		"outputAbbreviatedPath": "\/public\/js\/ImagesPreload.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 2
+		},
 	"\/app\/typescripts\/components\/Parallax.ts": {
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
@@ -777,15 +817,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/public\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/public\/js\/main.js": {
 		"fileType": 64,

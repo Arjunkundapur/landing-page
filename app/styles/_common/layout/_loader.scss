@@ -1,0 +1,14 @@
+.main-loader{
+  position: fixed;
+  background-color: $COLOR-WHITE;
+  top: 0;
+  z-index: 1;
+}
+
+.main-loader__bar{
+  height: 14px;
+  background-color: #a70230;
+  width: 0;
+  opacity: 0.4;
+  transition: width 2s, height .25s;
+}
