@@ -17,7 +17,7 @@ $('document').ready(() => {
 	TweenMax.set($('.fold__bg--home'), { y: 100, x: 80, opacity: 0 });
 	TweenMax.set($('.header__tit'), { top: 100, opacity: 0 });
 	TweenMax.set($('.header__desc'), { top: -100, opacity: 0 });
-	TweenMax.set($('.fold__bt-more'), { opacity: 0 });
+	TweenMax.set($('#fold__bt-more'), { opacity: 0 });
 	var tl = new TimelineMax({ onComplete: () => { parallax.bind(); } });
 
 	tl.staggerTo([
@@ -33,7 +33,7 @@ $('document').ready(() => {
 
 	tl.to($('.fold__bg--home'), 0.85, { x:0, y: 0, opacity: .2, ease: Cubic.easeOut }, 0);
 	tl.to($('.header__tit, .header__desc'), 0.85, { top: 0, opacity: 1, ease: Cubic.easeOut }, '-=.45' );
-	tl.to($('.fold__bt-more'), 0.25, { opacity: 1 }, '-=.25');
+	tl.to($('#fold__bt-more'), 0.25, { opacity: 1 }, '-=.25');
 
 	tl.pause();
 
@@ -44,4 +44,12 @@ $('document').ready(() => {
 		.then(() => { 
 			tl.play();
 		});
+
+
+
+
+	$('#fold__bt-more').on('click', () => {
+
+		TweenMax.to($('#js-main-wrapper'), 0.25, { scrollTo: window.innerHeight, ease: Cubic.easeOut })
+	});
 });
